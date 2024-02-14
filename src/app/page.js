@@ -1,8 +1,9 @@
 "use client"
 import Image from "next/image";
 import styles from "./page.module.css";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/sections/Navbar/Navbar";
 import { useEffect } from "react";
+import HomePage from "@/components/Home/HomePage";
 
 export default function Home() {
   useEffect(()=> {
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar/>
+      <HomePage />
     </main>
   );
 }
