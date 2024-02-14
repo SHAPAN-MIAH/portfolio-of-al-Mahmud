@@ -1,0 +1,38 @@
+.about_section {
+  margin-top: 30px;
+  color: rgb(204, 214, 246);
+}
+.about_title {
+  font-size: 35px;
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+.technologies_container {
+  margin-top: 40px;
+}
+.technology_item{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+.profile_image {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.profile_image img {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  margin-right: 45px;
+}
+
+.profile_border {
+  width: 400px;
+  height: 500px;
+  border: 3px solid rgb(100, 255, 218);
+  margin-left: 236px;
+  margin-top: 40px;
+}

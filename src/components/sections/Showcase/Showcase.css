@@ -1,0 +1,26 @@
+.showcase_section{
+  margin-top: 80px;
+}
+.showcase{
+ padding: 80px 0px;
+ color: rgb(204,214,246);
+}
+.showcase h1{
+ font-size: 55px;
+ font-weight: 700;
+}
+.showcase h1 span{
+  color: rgb(155, 164, 190);
+}
+
+.showcase_dec{
+  margin-top: 20px;
+  width: 50%;
+}
+#checkoutCourseBtn{
+  border:1px solid rgb(100,255,218);
+  background: none;
+  padding: 10px 20px;
+  color: rgb(100,255,218);
+  margin-top: 40px;
+}

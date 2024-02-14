@@ -1,36 +1,30 @@
-import React from 'react';
+import React from "react";
+import "./Showcase.css";
 
 const Showcase = () => {
   return (
     <div>
-      <div className="home_section">
+      <div className="showcase_section">
         <div className="showcase">
           <div className="container">
-            <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-md-6">
-                <div className="showcase-dec">
-                  <div className="wrapper">
-                    <div>
-                      {/* <!-- <div className="static-txt">Looking for a</div> --> */}
-                      <h6
-                        className="looking"
-                        data-text="Looking For a Web Developer !..."
-                      >
-                        Looking For a Web Developer !...
-                      </h6>
-                    </div>
-                    {/* <!-- <ul className="dynamic-txts">
-                                    <li><span>Developer !..</span></li>
-                                    <li><span>Front-end Developer !..</span></li>
-                                    <li><span>Back-end Developer !..</span></li>
-                                    <li><span></span></li>
-                                </ul> --> */}
-                  </div>
+            <div className="row d-flex align-items-center">
+              <div className="col-md">
+                <div className="showcase_title">
+                  <h6
+                    className="looking"
+                    data-text="Looking For a Web Developer !..."
+                  >
+                    Hi, my name is..
+                  </h6>
+                  <br/>
+
                   <h1>
-                    Hello There!
+                    Al Mahmud
                     <br />
-                    I'M MD. SHAPAN MIAH
+                    <span>I build things for the web.</span>
                   </h1>
+                </div>
+                <div className="showcase_dec">
                   <p>
                     Web Developer with over one year of experience. <br />
                     Experienced with all stages of the web development cycle for
@@ -38,20 +32,11 @@ const Showcase = () => {
                     development.
                   </p>
                 </div>
-                {/* <!-- <button type="button" id="hireMeBtn">Hire Me</button> --> */}
-                <a
-                  href="https://drive.google.com/uc?export=download&id=17Sw4XIQVbQppIDeExZeZwm8msa9Q31jp"
-                  download
-                >
-                  <button type="button" id="downloadResumeBtn">
-                    Download Resume <span className="btnSpan"></span>
-                  </button>
-                </a>
-                {/* <!-- <a href="imgaes/Md. Shapan (Update Resume) .pdf" download>
-                            <button type="button" id="downloadResumeBtn">Download Resume</button>
-                        </a> --> */}
+
+                <button type="button" id="checkoutCourseBtn">
+                 checkout my course
+                </button>
               </div>
-              
             </div>
           </div>
         </div>
