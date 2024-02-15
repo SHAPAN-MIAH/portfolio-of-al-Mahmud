@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import profileImg from "../../../assets/profileimg.jpg";
 import "./About.css";
+import { BiSolidRightArrow } from "react-icons/bi";
 
 const technologiesItems = [
   {
@@ -16,7 +17,20 @@ const technologiesItems = [
   {
     name: "Node.js",
   },
+  {
+    name: "PHP",
+  },
+  {
+    name: "Laravel",
+  },
+  {
+    name: "Javascript",
+  },
+  {
+    name: "Node.js",
+  },
 ];
+
 const About = () => {
   return (
     <>
@@ -56,9 +70,9 @@ const About = () => {
 
                 <div className="technology_item">
                   {technologiesItems.map((item) => (
-                    <span>
-                      <p>{item.name}</p>
-                    </span>
+                    <p>
+                      <BiSolidRightArrow /> <span>{item.name}</span>
+                    </p>
                   ))}
                 </div>
               </div>

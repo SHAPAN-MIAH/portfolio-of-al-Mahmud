@@ -1,6 +1,7 @@
 import React from 'react';
 import Showcase from '../sections/Showcase/Showcase';
 import About from '../sections/About/About';
+import Experience from '../sections/Experience/Experience';
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <div className='home_page_container container'>
       <Showcase/>
       <About/>
+      <Experience/>
       </div>
     </>
   );

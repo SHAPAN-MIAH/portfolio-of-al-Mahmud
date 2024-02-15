@@ -9,11 +9,18 @@
   margin-bottom: 20px;
 }
 .technologies_container {
+  
   margin-top: 40px;
+  color: rgb(100, 255, 218);
 }
 .technology_item{
+  width: 70%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  
+}
+.technology_item span{
+  color: rgb(204, 214, 246);
   
 }
 .profile_image {

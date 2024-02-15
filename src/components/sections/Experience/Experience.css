@@ -1,0 +1,9 @@
+.experience_section{
+  margin-top: 80px;
+  color: rgb(204,214,246);
+}
+
+.experience_container{
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+}
