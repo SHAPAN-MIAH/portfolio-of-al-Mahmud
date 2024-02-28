@@ -7,3 +7,23 @@
   /* display: grid;
   grid-template-columns: repeat(2, 1fr); */
 }
+
+.experience_side_menu{
+ margin-top: 20px;
+}
+.experience_side_menu ul{
+ margin: 0;
+ padding: 0;
+}
+.experience_side_menu li{
+ list-style: none;
+ margin-bottom: 20px;
+}
+.active_side_menu{
+ border-bottom: 2px solid rgb(204,214,246);
+}
+.experience_side_menu button{
+ border: none;
+ background: none;
+ color:  rgb(204,214,246);
+}

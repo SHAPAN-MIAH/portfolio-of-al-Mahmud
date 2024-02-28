@@ -13,11 +13,11 @@ const Experience = () => {
           <div className="row">
             <div className="col-md-3">
               <div className="experience_side_menu">
-                <ul>
-                  <li>Spagreen</li>
-                  <li>Softiconic</li>
-                  <li>Excelit</li>
-                </ul>
+                  <ul>
+                  <li> <button>Spagreen</button></li>
+                  <li><button>Softiconic</button></li>
+                  <li><button>Excelit</button></li>
+                  </ul>
               </div>
             </div>
             <div className="col-md-9">
