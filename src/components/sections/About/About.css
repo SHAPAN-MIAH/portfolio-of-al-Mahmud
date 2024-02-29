@@ -5,11 +5,14 @@
 .about_title {
   font-size: 35px;
   font-weight: 700;
-
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.about_title span{
+  color: rgb(100, 255, 218);
 }
 .technologies_container {
-  
   margin-top: 40px;
   color: rgb(100, 255, 218);
 }

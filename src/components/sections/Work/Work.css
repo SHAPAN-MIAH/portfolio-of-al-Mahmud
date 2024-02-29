@@ -1,0 +1,64 @@
+.work_section {
+  margin-top: 80px;
+  color: rgb(204, 214, 246);
+}
+
+.work_title {
+  display: flex;
+  align-items: center;
+}
+.work_title span {
+  color: rgb(100, 255, 218);
+}
+.title_right_border {
+  width: 300px;
+  height: 1px;
+  border: 0.5px solid rgba(204, 214, 246, 0.527);
+  margin-left: 20px;
+}
+
+.featured_project {
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.project_title p{
+  color: rgb(100, 255, 218);
+  font-size: 17px;
+}
+.project_technology {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 240px 0px 0px 0px;
+}
+.project_technology li{
+  padding: 5px 10px 10px 0px;
+  margin-left: 0px;
+}
+.project_description{
+  width: 700px;
+  height: 200px;
+  padding: 30px ;
+  margin-top: 20px;
+  background-color: rgb(36, 43, 65);
+  z-index: 999;
+  position: absolute;
+  border-radius: 10px;
+  
+}
+.project_links{
+  font-size: 30px;
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  /* cursor: pointer; */
+}
+.project_image {
+  margin-left: auto;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  /* opacity: .5; */
+}

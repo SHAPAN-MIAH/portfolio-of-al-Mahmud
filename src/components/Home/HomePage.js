@@ -2,6 +2,7 @@ import React from 'react';
 import Showcase from '../sections/Showcase/Showcase';
 import About from '../sections/About/About';
 import Experience from '../sections/Experience/Experience';
+import Work from '../sections/Work/Work';
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Showcase/>
       <About/>
       <Experience/>
+      <Work/>
       </div>
     </>
   );

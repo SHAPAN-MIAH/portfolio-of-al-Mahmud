@@ -1,29 +1,72 @@
-.experience_section{
+.experience_section {
   margin-top: 80px;
-  color: rgb(204,214,246);
+  color: rgb(204, 214, 246);
 }
+.experience_section_title{
+  display: flex;
+  align-items: center;
 
-.experience_container{
+}
+.experience_section_title span{
+  color: rgb(100, 255, 218);
+}
+.experience_container {
   /* display: grid;
   grid-template-columns: repeat(2, 1fr); */
 }
 
-.experience_side_menu{
- margin-top: 20px;
+.experience_side_menu {
+  /* margin-top: 20px; */
 }
-.experience_side_menu ul{
- margin: 0;
- padding: 0;
+.experience_side_menu ul {
+  margin: 0;
+  padding: 0;
 }
-.experience_side_menu li{
- list-style: none;
- margin-bottom: 20px;
+.experience_side_menu li {
+  list-style: none;
+  margin-bottom: 20px;
 }
-.active_side_menu{
- border-bottom: 2px solid rgb(204,214,246);
+.active_side_menu {
+  border-bottom: 2px solid rgb(204, 214, 246);
 }
-.experience_side_menu button{
- border: none;
- background: none;
- color:  rgb(204,214,246);
+.experience_side_menu button {
+  border: none;
+  background: none;
+  color: rgb(204, 214, 246);
+}
+
+.experience_content_title h3 span {
+  color: rgb(100, 255, 218);
+}
+
+.activeExperienceMenu,
+.activeExperienceMenuTwo,
+.activeExperienceMenuTree {
+  border-left: 5px solid rgb(100, 255, 218);
+  padding-left: 10px;
+}
+.activeExperienceMenu button,
+.activeExperienceMenuTwo button,
+.activeExperienceMenuTree button {
+  color: rgb(100, 255, 218) !important;
+}
+
+
+@media screen and (max-width:768px) {
+  .experience_section_title{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .experience_side_menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .activeExperienceMenu,
+.activeExperienceMenuTwo,
+.activeExperienceMenuTree {
+  border-left: none;
+  border-bottom: 3px solid rgb(100, 255, 218);
+  padding: 0px;
+}
 }
