@@ -14,14 +14,14 @@ const Work = () => {
       project_description:
         "A web app for visualizing personalized Spotify data. View your top artists top tracks recently played tracks and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
       project_technology: ["PHP", "Laravel", "Javascript", "Vue js", "MySQL"],
-      img_url: img
+      img_url: img,
     },
     {
       title: "Project Title Two",
       project_description:
         "A web app for visualizing personalized Spotify data. View your top artists top tracks recently played tracks and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
       project_technology: ["PHP", "Laravel", "Javascript", "Vue js", "MySQL"],
-      img_url: img2
+      img_url: img2,
     },
   ];
 
@@ -54,8 +54,12 @@ const Work = () => {
                   ))}
                 </div>
                 <div className="project_links">
-                  <FiGithub />
-                  <RxExternalLink />
+                  <span className="git_icon">
+                    <FiGithub />
+                  </span>
+                  <span className="project_url_icon">
+                    <RxExternalLink />
+                  </span>
                 </div>
               </div>
               <div className="project_image">

@@ -49,11 +49,13 @@
   
 }
 .project_links{
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   gap: 30px;
   margin-top: 10px;
-  /* cursor: pointer; */
+}
+.git_icon{
+  cursor: pointer;
 }
 .project_image {
   margin-left: auto;

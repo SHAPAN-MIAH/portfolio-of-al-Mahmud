@@ -1,0 +1,25 @@
+.footer_section{
+  margin: 80px 0px;
+  padding: 50px 0px;
+  
+}
+
+.get_in_touch_title h4{
+  color: rgb(100,255,218);
+  letter-spacing: 0.5em;
+  margin-bottom: 30px;
+}
+.get_in_touch_title h1{
+  font-weight: 700;
+  word-spacing: 0.4em;
+  margin-bottom: 30px;
+}
+.get_in_touch_title, .get_in_touch_content{
+  color: rgb(204,214,246);
+  text-align: center;
+}
+
+.get_in_touch_content p{
+  font-size: 20px;
+  word-spacing: 0.1em;
+}

@@ -3,6 +3,10 @@
   background-color: rgb(10,25,47);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 0px 20px;
+  
+}
+.navbar-brand{
+  color: rgb(204,214,246);
 }
 .navbar-nav{
   margin-left: auto;

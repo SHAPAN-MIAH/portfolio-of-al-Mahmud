@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import SocialLink from "@/components/Home/FixedComponents/SocialLink/SocialLink";
 
 const inter = Inter({ subsets: ["latin"] });
 

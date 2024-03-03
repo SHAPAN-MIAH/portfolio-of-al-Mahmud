@@ -1,0 +1,25 @@
+.social_link_container{
+  height: 100vh;
+  position: fixed;
+
+}
+.social_link_container ul{
+  margin-top: 200px;
+}
+.social_link_container ul li{
+  list-style: none;
+  font-size: 30px;
+  color: rgb(204, 214, 246);
+  margin: 20px;
+  cursor: pointer;
+}
+.social_link_container ul li:hover{
+  color: rgb(100, 255, 218);
+}
+
+.social_link_container_bottom_border{
+  height: 400px;
+  width: 1px;
+  border: 1px solid rgb(204, 214, 246);
+  margin-left: 32px;
+}
